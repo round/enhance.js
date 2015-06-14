@@ -230,7 +230,6 @@
       {
         duration: this._transitionDuration,
         complete: function(elements) {
-          console.log("Done animating the scale property.");
           myself.dispose() // should probably use proxy here
         }
       });
