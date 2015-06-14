@@ -11,13 +11,11 @@ https://rawgit.com/ROUND/enhance.js/master/
 
 * Removes Boostrap dependency
 * Adds Velocity.js dependency
-* Supports object-fit CSS property
+* Supports `object-fit` CSS property
 
 ### Known Issues (todos?)
 
-* Breaks floated images
-* Causes content reflow for images without (expclitly sized) containers
-* Images seem to inconsisently retain explicit sizes after disposal
+* Causes content reflow for images without (expclitly sized) containers, including floated images
 * Doesn’t work on `margin: auto` centered images
 
 
