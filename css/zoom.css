@@ -8,7 +8,6 @@ img[data-action="zoom"] {
 .zoom-img-wrap {
   position: relative;
   z-index: 666;
-  /*transition: transform 5s linear;*/
 }
 
 .zoom-img-wrap {
