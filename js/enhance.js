@@ -241,7 +241,7 @@
       $(this._targetImage)
         .removeClass('zoom-img')
         .attr('data-action', 'zoom')
-        .css({'width': '','height': ''})
+        .css({'width': '','height': '', 'transform': ''})
 
       this._targetImageWrap.parentNode.replaceChild(this._targetImage, this._targetImageWrap)
       this._overlay.parentNode.removeChild(this._overlay)
