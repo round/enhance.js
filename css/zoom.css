@@ -10,10 +10,6 @@ img[data-action="zoom"] {
   z-index: 666;
 }
 
-.zoom-img-wrap {
-
-}
-
 img.zoom-img {
   cursor: pointer;
   cursor: -webkit-zoom-out;
