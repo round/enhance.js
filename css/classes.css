@@ -1,0 +1,14 @@
+.crop-cover  	{object-fit: cover}
+.crop-contain	{object-fit: contain}
+.crop-scale  	{object-fit: scale-down}
+.crop-none   	{object-fit: none}
+
+.anchor-top-left     	{object-position: top left}
+.anchor-top-center   	{object-position: top center}
+.anchor-top-right    	{object-position: top right}
+.anchor-center-left  	{object-position: center left}
+.anchor-center-center	{object-position: center}
+.anchor-center-right 	{object-position: center right}
+.anchor-bottom-left  	{object-position: bottom left}
+.anchor-bottom-center	{object-position: bottom center}
+.anchor-bottom-right 	{object-position: bottom right}
