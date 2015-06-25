@@ -4,10 +4,13 @@
 
 A port of [@fat](https://github.com/fat/zoom.js)'s simple jQuery plugin for image zooming – now with support for `object-fit`/`object-position`, powered by [Velocity.js](http://julian.com/research/velocity/) animations, complete with some pre-defined image cropping classes.
 
-<img src="http://i.imgur.com/6zgfcFM.gif" width="100%"/>
+
 
 <h2 align="center">
-  <a href="https://rawgit.com/ROUND/enhance.js/master/">:sparkles: Demo :sparkles:</a>
+  <a href="https://rawgit.com/ROUND/enhance.js/master/">
+  <img src="http://i.imgur.com/6zgfcFM.gif" width="100%"/>
+  :sparkles: Demo :sparkles:
+  </a>
 </h2>
 
 ### Differences
