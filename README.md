@@ -23,6 +23,7 @@ A port of [@fat](https://github.com/fat/zoom.js)'s simple jQuery plugin for imag
 ### To-Dos
 
 * Cleanup codebase (in line with zoom.js latest)
+* Add optional lazy/preloading if there is a wrapping `<a>` tag to a high-resolution image
 * Add more robust demo
 * Synchronize Velocity.js timing with CSS animation timing
 * Clean up code to allow passing a custom selector/attribute for the targeted images
