@@ -22,6 +22,7 @@ A port of [@fat](https://github.com/fat/zoom.js)'s simple jQuery plugin for imag
 
 ### To-Dos
 
+* Consider porting to GSAP?
 * Cleanup codebase (in line with zoom.js latest)
 * Add optional lazy/preloading if there is a wrapping `<a>` tag to a high-resolution image
 * Add more robust demo
