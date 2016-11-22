@@ -113,14 +113,20 @@
   Zoom.OFFSET = 80 //margins
 
   Zoom.prototype.zoomImage = function () {
-    var img = document.createElement('img')
+    var img = document.createElement('img');
+
     img.onload = $.proxy(function () {
-      this._fullHeight = Number(img.height)
-      this._fullWidth = Number(img.width)
-      this._zoomOriginal()
-    }, this)
-    img.src = this._targetImage.src
-  }
+      this._fullHeight = Number(img.height);
+      this._fullWidth = Number(img.width);
+      this._targetImage.src = img.src;
+        
+      this._zoomOriginal();
+    }, this);
+
+    img.src = this._targetImage.hasAttribute('data-zoom-src')
+        ? this._targetImage.getAttribute('data-zoom-src')
+        : this._targetImage.src;
+  };
 
   Zoom.prototype._zoomOriginal = function () {
     this._targetImageWrap           = document.createElement('div')
